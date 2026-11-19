@@ -78,6 +78,9 @@ Elegís o arrastrás uno o varios `.apk` y los instalás en el equipo conectado:
 - **Forzada:** permite versiones anteriores y APK de prueba, otorga todos los permisos y evita el bloqueo de Play Protect. Si la firma no coincide, reemplaza la app existente.
 - **Bloquear notificaciones:** la app queda instalada sin poder mostrar avisos.
 
+### 💾 Copia de seguridad y restauración
+Respaldá el celular antes de trabajar: **contactos** (.vcf + Excel), **fotos y videos**, **WhatsApp** (archivos y copia local de chats), **Telegram**, **descargas**, **documentos**, **música y grabaciones**, **apps instaladas (APK)**, **registro de llamadas** y **SMS** (en los equipos que lo permiten). Muestra el tamaño de cada cosa, el espacio libre, el progreso y el tiempo restante. Después restaurás todo en el mismo celular o en uno nuevo.
+
 ### 🧠 Aprende con cada equipo
 - **Lista negra:** cada app de riesgo que eliminás queda anotada. Si aparece en el celular de otro cliente, se marca en rojo al instante.
 - **Lista blanca:** con el botón «Confiable», una app buena no se vuelve a marcar en ningún equipo.
