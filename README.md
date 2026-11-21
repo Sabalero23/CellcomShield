@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <b>Detectá y eliminá en minutos las apps que llenan de publicidad un celular Android:<br>
-  las que se abren solas, se ponen encima de todo, bloquean el touch y no se dejan desinstalar.</b>
+  <b>La herramienta para el servicio técnico de celulares Android:<br>
+  eliminá el adware que bloquea el equipo, hacé copias de seguridad, optimizá y llevá el historial de cada cliente.</b>
 </p>
 
 <p align="center">
@@ -48,12 +48,11 @@ Analiza todas las apps del celular y le asigna a cada una un **puntaje de riesgo
 - se **dibuja encima de otras apps** (superposición), o está mostrando una ventana flotante **en este momento**;
 - tiene la **accesibilidad activa**, lo que le permite leer y controlar la pantalla;
 - es **administrador del dispositivo**, lo que bloquea su desinstalación;
-- **esconde su ícono** del menú;
-- se instaló **fuera de la tienda oficial**;
-- **arranca sola** al encender, lee las notificaciones o abre pantallas completas;
+- **esconde su ícono** del menú y **arranca sola** al encender;
+- se instaló **fuera de la tienda oficial** o hace muy pocos días;
 - tiene un **nombre típico de app basura** (limpiador, booster, linterna…) o un **nombre aleatorio u ofuscado**.
 
-Las de **riesgo alto** quedan arriba, en rojo, y cada una muestra los motivos explicados en castellano.
+Las de **riesgo alto** quedan arriba, en rojo, y cada una muestra los motivos explicados en castellano. Podés ver **todas las apps**, ordenarlas por riesgo, por **instaladas recientemente** o por nombre, y con el botón **Ver** abrir la ficha de cualquier app en el celular para ver su nombre real y su ícono.
 
 ### 🗑️ Eliminación que sí funciona
 Muchas apps de adware no se dejan desinstalar. Cellcom Shield las desarma en el orden correcto:
@@ -72,21 +71,45 @@ Cuando aparece la propaganda en el celular, tocás **DETECTAR AHORA** y el progr
 ### 📱 Pantalla remota
 Ves la pantalla del celular en la PC y la manejás con el mouse: **clic** para tocar, **arrastrar** para deslizar y **mantener** para un toque largo. También tenés botones de Atrás, Inicio, Recientes y Encendido, y un campo para escribir texto. Es ideal cuando la publicidad **bloquea el touch**.
 
+### 💾 Copia de seguridad y restauración
+Respaldá el celular antes de trabajar:
+
+- **Contactos**: archivo `.vcf` para importar en cualquier celular y planilla para Excel.
+- **Fotos y videos**, **WhatsApp** (archivos y copia local de chats), **Telegram**, **descargas**, **documentos**, **música y grabaciones** y el resto del almacenamiento.
+- **Apps instaladas** (APK) para reinstalarlas.
+- **Registro de llamadas** y **SMS**, en los equipos que lo permiten.
+
+Antes de copiar muestra el tamaño de cada cosa y el espacio libre. Durante la copia muestra el progreso, la velocidad y el tiempo restante. Después restaurás todo en el mismo celular o en uno nuevo.
+
+### ⚡ Optimización
+Borra la caché de las apps y las miniaturas de la galería, cierra las apps en segundo plano y acelera las animaciones. También desactiva las apps de fábrica con publicidad de **Samsung, Xiaomi y Motorola**. Se pueden volver a activar cuando quieras, y con **OPTIMIZAR TODO** hacés todo con un clic.
+
 ### 📦 Instalar APK
 Elegís o arrastrás uno o varios `.apk` y los instalás en el equipo conectado:
+
 - **Normal:** instala o actualiza conservando los datos.
 - **Forzada:** permite versiones anteriores y APK de prueba, otorga todos los permisos y evita el bloqueo de Play Protect. Si la firma no coincide, reemplaza la app existente.
 - **Bloquear notificaciones:** la app queda instalada sin poder mostrar avisos.
 
-### 💾 Copia de seguridad y restauración
-Respaldá el celular antes de trabajar: **contactos** (.vcf + Excel), **fotos y videos**, **WhatsApp** (archivos y copia local de chats), **Telegram**, **descargas**, **documentos**, **música y grabaciones**, **apps instaladas (APK)**, **registro de llamadas** y **SMS** (en los equipos que lo permiten). Muestra el tamaño de cada cosa, el espacio libre, el progreso y el tiempo restante. Después restaurás todo en el mismo celular o en uno nuevo.
+### 📶 Conexión por Wi-Fi
+Trabajá sin cable:
+
+- **Android 11 o superior:** escaneá un **código QR** desde *Depuración inalámbrica* y se conecta solo, o usá el código de 6 dígitos.
+- **Cualquier Android:** activá el modo inalámbrico desde el cable con un clic.
+
+### 🗂️ Historial por cliente
+Cada equipo queda registrado por su número de serie, con **nombre, teléfono y notas** del cliente. Al conectar un celular que ya vino, te avisa y muestra todo lo que se le hizo: apps eliminadas, copias, instalaciones y optimizaciones. Podés buscar por serie, modelo, cliente, teléfono o app.
 
 ### 🧠 Aprende con cada equipo
 - **Lista negra:** cada app de riesgo que eliminás queda anotada. Si aparece en el celular de otro cliente, se marca en rojo al instante.
+- **Base de adware compartida:** lo que se detecta en una PC se marca en todas las PCs con Cellcom Shield.
 - **Lista blanca:** con el botón «Confiable», una app buena no se vuelve a marcar en ningún equipo.
 
 ### 📊 Informes para el taller
 Cada acción queda registrada en un **informe mensual** que abre en Excel: fecha, equipo, número de serie, app, acción y resultado.
+
+### 🔄 Actualizaciones automáticas
+Cellcom Shield revisa solo si hay una versión nueva, te muestra las novedades y se actualiza con un clic. También podés revisar a mano en *Herramientas → Actualizaciones*.
 
 ### 🛡️ Seguro por diseño
 - Las apps esenciales del sistema (Ajustes, Teléfono, Google Play Services, etc.) quedan **protegidas** y no se pueden tocar.
@@ -102,7 +125,7 @@ Cada acción queda registrada en un **informe mensual** que abre en Excel: fecha
 | **Sistema** | Windows 10 u 11 de 64 bits |
 | **Instalación** | No necesita .NET ni nada extra: el instalador trae todo |
 | **ADB** | El programa lo descarga solo la primera vez (Android Platform Tools oficial de Google, ~7 MB) |
-| **Celular** | Android 5 o superior, con **Depuración USB** activada |
+| **Celular** | Android 5 o superior, con **Depuración USB** activada (Wi-Fi con QR: Android 11 o superior) |
 | **Cable** | USB de **datos**, no solo de carga |
 
 ---
@@ -116,6 +139,8 @@ Cada acción queda registrada en un **informe mensual** que abre en Excel: fecha
 
 > **«Windows protegió su PC»:** el instalador todavía no tiene firma digital. Tocá **Más información → Ejecutar de todas formas**.
 
+Desde la versión 1.4.1, las versiones nuevas se ofrecen solas al abrir el programa.
+
 ---
 
 ## 📖 Uso rápido
@@ -127,6 +152,7 @@ Cada acción queda registrada en un **informe mensual** que abre en Excel: fecha
 
 **2 · Conectar**
 - Conectá el cable y en el celular aceptá **«¿Permitir depuración USB?»**, marcando *Permitir siempre*.
+- O usá **Wi-Fi** (botón en la tarjeta *Dispositivo*) y escaneá el código QR.
 - El equipo aparece solo en el panel **Dispositivo**.
 
 **3 · Escanear y limpiar**
@@ -157,18 +183,20 @@ Es **administrador del dispositivo**. Hacé esto:
 2. Copiá el **código de tu PC** y envialo a Cellcom Technology.
 3. Pegá la licencia que recibas y tocá **ACTIVAR**.
 
-La licencia queda guardada aunque reinstales el programa.
+La licencia queda guardada aunque reinstales o actualices el programa.
 
 ---
 
 ## 🔐 Privacidad
 
-- Cellcom Shield trabaja **en tu PC y con el celular conectado por cable**. **No** envía a ningún lado datos del celular ni de las apps del cliente.
+- Cellcom Shield trabaja **en tu PC y con el celular conectado**. **No** envía a ningún lado fotos, contactos, mensajes ni datos personales del cliente.
 - Para controlar la prueba y la licencia, al abrirse con internet envía al servidor de licencias de Cellcom Technology solo esto:
   - el **código de la PC** (un identificador anónimo calculado a partir del hardware);
   - el **nombre del equipo** y el **usuario de Windows**;
   - la **versión** del programa y la **fecha de inicio de la prueba**.
-- Los informes, las listas y los respaldos de APK se guardan **solo en tu PC**, en `Documentos\Cellcom Shield`.
+- Para la base de adware compartida envía el **nombre de paquete** de las apps de riesgo que se eliminan o se marcan como confiables, y el modelo del celular. No envía el número de serie ni datos del cliente.
+- Para buscar actualizaciones, consulta la página pública de *Releases* de este repositorio en GitHub. No envía ningún dato tuyo.
+- Los informes, el historial de clientes, las listas, las copias de seguridad y los respaldos de APK se guardan **solo en tu PC**, en `Documentos\Cellcom Shield`.
 
 ---
 
@@ -180,13 +208,22 @@ La licencia queda guardada aunque reinstales el programa.
 - Revisá que el cable sea de datos y que la *Depuración USB* esté activa.
 - Aceptá el cartel *«¿Permitir depuración USB?»* en el celular. Si no aparece, desconectá y volvé a conectar.
 - En **Samsung**, instalá el *Samsung USB Driver*. En otras marcas, el driver USB del fabricante.
-- Probá con **Herramientas → Reiniciar conexión ADB**.
+- Probá con **Herramientas → Reiniciar ADB**.
+</details>
+
+<details>
+<summary><b>El código QR no conecta</b></summary>
+
+- La PC y el celular tienen que estar en la **misma red Wi-Fi** (las redes de invitados suelen bloquear la conexión entre equipos).
+- Si Windows preguntó si *adb.exe* puede usar la red, tiene que estar **permitido** para redes privadas.
+- Probá **Herramientas → Reiniciar ADB** y generá un código nuevo.
+- Si igual no funciona, usá la opción del **código de 6 dígitos** de la misma ventana.
 </details>
 
 <details>
 <summary><b>¿Puede borrar algo importante del celular?</b></summary>
 
-Las apps esenciales del sistema aparecen como **PROTEGIDA** y no se pueden eliminar. Siempre te pide confirmación antes de borrar, y las apps de fábrica que quites se pueden **restaurar** desde *Herramientas*.
+Las apps esenciales del sistema aparecen como **PROTEGIDA** y no se pueden eliminar. Siempre te pide confirmación antes de borrar, y las apps de fábrica que quites o desactives se pueden **restaurar** o **reactivar**.
 </details>
 
 <details>
@@ -196,15 +233,27 @@ El puntaje es una guía: revisá los motivos que muestra. Si es una app legítim
 </details>
 
 <details>
+<summary><b>¿Qué incluye la copia de seguridad?</b></summary>
+
+Contactos, fotos y videos, WhatsApp, Telegram, descargas, documentos, música, el resto del almacenamiento, las apps instaladas (APK) y, si el celular lo permite, llamadas y SMS. Sin root, Android **no permite** copiar los datos internos de cada app (sesiones, progreso de juegos). Los chats de WhatsApp quedan en la copia local, pero para restaurarlos hace falta el mismo número.
+</details>
+
+<details>
 <summary><b>Al instalar un APK dice «Instalar vía USB»</b></summary>
 
 En Xiaomi, Redmi y POCO hay que activar **«Instalar vía USB»** en *Opciones de desarrollador*. Puede pedir iniciar sesión con la cuenta Mi.
 </details>
 
 <details>
-<summary><b>¿Dónde están los informes?</b></summary>
+<summary><b>¿Cómo actualizo el programa?</b></summary>
 
-En `Documentos\Cellcom Shield\informes`, uno por mes, en formato CSV (abre en Excel). También podés abrirlos con el botón **Informes**.
+Desde la versión 1.4.1 es automático: al abrir Cellcom Shield, si hay una versión nueva aparece un aviso con las novedades y el botón **Descargar e instalar**. También podés revisar en **Herramientas → Actualizaciones**. Si tenés una versión anterior a la 1.4.1, descargá el instalador desde [Releases](https://github.com/Sabalero23/CellcomShield/releases/latest) e instalalo encima.
+</details>
+
+<details>
+<summary><b>¿Dónde están los informes, las copias y el historial?</b></summary>
+
+En `Documentos\Cellcom Shield`: `informes` (un CSV por mes que abre en Excel), `copias` (las copias de seguridad), `listas` (lista negra y blanca), `cuarentena` (APK borrados) y `clientes.json` (datos de los clientes). También se abren con los botones de **Herramientas**.
 </details>
 
 ---
