@@ -23,17 +23,29 @@
 ## 📸 Capturas
 
 <p align="center">
-  <img src="docs/img/captura-principal.png" alt="Pantalla principal con el escaneo" width="100%">
-  <br><em>Escaneo de un equipo: las apps más peligrosas aparecen arriba, en rojo, con los motivos.</em>
+  <img src="docs/img/principal-v14.png" alt="Pantalla principal de Cellcom Shield" width="100%">
+  <br><em>Pantalla principal: dispositivo, copia de seguridad, optimización, pantalla remota y lista de apps con su puntaje de riesgo.</em>
 </p>
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/img/captura-pantalla-remota.png" alt="Pantalla remota"><br><em>Pantalla remota: manejá el celular desde la PC aunque el touch esté bloqueado.</em></td>
-    <td width="50%"><img src="docs/img/captura-detectar.png" alt="Detectar app en pantalla"><br><em>«Detectar ahora»: te dice qué app está mostrando la publicidad.</em></td>
+    <td width="50%"><img src="docs/img/copia-elementos.png" alt="Copia de seguridad"><br><em>Copia de seguridad: elegí qué respaldar y mirá cuánto ocupa cada cosa.</em></td>
+    <td width="50%"><img src="docs/img/copia-progreso.png" alt="Copia en progreso"><br><em>Progreso con velocidad y tiempo restante.</em></td>
   </tr>
   <tr>
-    <td width="50%"><img src="docs/img/captura-instalar-apk.png" alt="Instalar APK"><br><em>Instalación de APK: normal, forzada y con notificaciones bloqueadas.</em></td>
+    <td width="50%"><img src="docs/img/restaurar.png" alt="Restaurar copia"><br><em>Restaurar una copia en el mismo celular o en uno nuevo.</em></td>
+    <td width="50%"><img src="docs/img/optimizar.png" alt="Optimizar equipo"><br><em>Optimizar: limpieza, animaciones y apps de fábrica.</em></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/img/wifi.png" alt="Conexión por Wi-Fi con QR"><br><em>Conexión por Wi-Fi: escaneá el QR y se conecta solo.</em></td>
+    <td width="50%"><img src="docs/img/historial.png" alt="Historial de equipos"><br><em>Historial por cliente con todos los trabajos realizados.</em></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/img/captura-detectar.png" alt="Detectar app en pantalla"><br><em>«Detectar ahora»: qué app está mostrando la publicidad.</em></td>
+    <td width="50%"><img src="docs/img/captura-pantalla-remota.png" alt="Pantalla remota"><br><em>Pantalla remota: manejá el celular desde la PC.</em></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/img/captura-instalar-apk.png" alt="Instalar APK"><br><em>Instalación de APK: normal, forzada y sin notificaciones.</em></td>
     <td width="50%"><img src="docs/img/captura-licencia.png" alt="Licencia"><br><em>Prueba de 30 días y activación de licencia.</em></td>
   </tr>
 </table>
